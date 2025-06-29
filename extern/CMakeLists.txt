@@ -25,6 +25,7 @@ if(TRAVELINGSALESMANSOLVER_BUILD_TEST)
 endif()
 
 # Fetch fontanf/optimizationtools.
+set(OPTIMIZATIONTOOLS_BUILD_TEST OFF)
 FetchContent_Declare(
     optimizationtools
     GIT_REPOSITORY https://github.com/fontanf/optimizationtools.git
